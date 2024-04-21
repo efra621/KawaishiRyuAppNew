@@ -1,4 +1,4 @@
-package app.gratum.kawaishiryuappnew
+package app.gratum.kawaishiryuappnew.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
