@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "app.gratum.kawaishiryuappnew"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "app.gratum.kawaishiryuappnew"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -24,6 +24,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+        debug {
+            applicationIdSuffix = ".debug"
         }
     }
     compileOptions {
