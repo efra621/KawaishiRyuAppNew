@@ -2,4 +2,24 @@
     <string name="app_name">KawaishiRyuAppNew</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- FragLoginOrRegister -->
+    <string name="NameApp">Kawaishi Ryu App</string>
+    <string name="tv1">Jiu Jitsu-Judo</string>
+    <string name="tv2">Explora sobre las técnicas de Jiu Jitsu y Judo en Salta, Argentina, y obtén detalles acerca de los dojos donde puedes aprender y perfeccionar estas disciplinas.</string>
+    <string name="stUsuario">Usuario</string>
+    <string name="stPassword">Contraseña</string>
+    <string name="stRegistrarme">Registrarme</string>
+    <string name="st_iniciar_sesion">Iniciar Sesion</string>
+    <string name="frase_registro">Crea una cuenta y adentrate en el mundo del Jiu Jitsu y Judo\n</string>
+
+    <!-- RegisterFragment -->
+    <string name="st_completar_datos">COMPLETAR DATOS</string>
+    <string name="stNombre">Nombre</string>
+    <string name="stApellido">Apellido</string>
+    <string name="email">Email@</string>
+    <string name="st_password_rep">Repita contraseña</string>
+    <string name="st_politic1">He leído las políticas de privacidad.</string>
+
+
 </resources>

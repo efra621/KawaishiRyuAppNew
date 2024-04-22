@@ -6,4 +6,107 @@
     </style>
 
     <style name="Theme.KawaishiRyuAppNew" parent="Base.Theme.KawaishiRyuAppNew" />
+
+    <!-- LinearLayout 1 -->
+    <style name="CommonLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/C4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- LinearLayout 2 -->
+    <style name="LinearLayoutBasico">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- TextInputLayoutLogin -->
+    <style name="CommonTextInputLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:textColorHint">@color/C1</item>
+        <item name="boxBackgroundColor">@color/C7</item>
+        <item name="helperTextTextColor">@color/C1</item>
+        <item name="hintTextColor">@color/C1</item>
+    </style>
+
+    <style name="TextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:textColorHint">@color/C1</item>
+        <item name="boxBackgroundColor">@color/C7</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="endIconDrawable">@drawable/ic_clear</item>
+        <item name="helperTextTextColor">@color/C1</item>
+    </style>
+
+    <style name="TextInputEditText2" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+
+
+    <!-- CardView -->
+    <style name="CommonCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:backgroundTint">@color/C7</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:elevation">14dp</item>
+        <item name="cardCornerRadius">15dp</item>
+    </style>
+
+    <style name="MaterialAutoCompleteTextViewStyle" parent="Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
+        <!-- Ajustes generales -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- Ajustes específicos del MaterialAutoCompleteTextView -->
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:hint">Seleccione una opción</item>
+        <item name="android:inputType">none</item>
+        <item name="android:textColor">@color/C6</item>
+        <item name="android:background">@null</item> <!-- Elimina el fondo para que se vea como un cuadro de texto normal -->
+        <item name="android:focusable">false</item> <!-- Hace que no sea editable directamente -->
+    </style>
+
+    <style name="AppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:textColorHint">@color/C6</item>
+        <item name="boxBackgroundColor">@color/C7</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="endIconDrawable">@drawable/ic_clear</item>
+    </style>
+
+    <style name="AppTheme.TextInputEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/C6</item>
+    </style>
+
+
+
 </resources>

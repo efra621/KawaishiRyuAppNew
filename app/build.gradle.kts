@@ -1,7 +1,10 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("kotlin-parcelize")
     //kotlin("android")
     //kotlin("android.extensions")
     //kotlin("kapt")
@@ -19,6 +22,14 @@ android {
         versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+
+//        val properties = Properties()
+//        project.rootProject.file("local.properties").inputStream().use { input ->
+//            properties.load(input)
+//        }
+//        buildConfigField("String", "API_KEY", "\"${properties.getProperty("API_KEY")}\"")
+
     }
 
     buildTypes {
@@ -43,6 +54,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -63,11 +75,11 @@ dependencies {
     // Firebase Firestore, Storage, Auth
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-storage-ktx")
-    implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-auth")
 
-//    // Google Play Services Auth
-//    implementation("com.google.android.gms:play-services-auth")
+    // Google Play Services Auth
+    implementation("com.google.android.gms:play-services-auth:32.8.1") // Especificando la versión
+
 
     // Kotlin
     val n1 = "2.7.7"
