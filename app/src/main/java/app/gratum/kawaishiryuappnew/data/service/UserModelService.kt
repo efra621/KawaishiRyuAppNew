@@ -12,15 +12,10 @@ import kotlinx.coroutines.withContext
 //partes distintas, cada una de las cuales aborda una preocupación específica.
 /*
 * Ventajas de la Separación de Concerns:
-
 Mantenibilidad: Al separar las preocupaciones, cada componente puede ser más fácilmente entendido y mantenido. Cambios en una parte del sistema no deberían afectar innecesariamente a otras partes.
-
 Reusabilidad: Las capas de abstracción pueden ser reutilizadas en diferentes partes del programa o incluso en diferentes proyectos, ya que encapsulan la funcionalidad de manera independiente.
-
 Testabilidad: La separación facilita la creación de pruebas unitarias y de integración, ya que cada componente puede ser probado de forma aislada.
-
 Escalabilidad: Facilita la escalabilidad del sistema ya que cada componente puede ser gestionado y escalado de manera independiente.
-
 Colaboración: Permite que equipos diferentes trabajen en diferentes partes del sistema sin interferencias innecesarias.
 */
 

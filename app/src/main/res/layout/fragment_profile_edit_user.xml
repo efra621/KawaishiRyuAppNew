@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CommonLinearLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.profile.ProfileEditUserFragment">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <io.github.florent37.shapeofview.shapes.ArcView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:elevation="4dp"
+            app:shape_arc_height="40dp"
+            app:shape_arc_position="bottom">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/C1" />
+
+        </io.github.florent37.shapeofview.shapes.ArcView>
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        style="@style/CommonCardViewStyle"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout style="@style/LinearLayoutBasico">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfileUserPhoto"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/ic_launcher_foreground"
+                app:civ_border_color="@color/C1"
+                app:civ_border_width="3dp" />
+
+            <!-- Primer LinearLayout -->
+            <LinearLayout
+                style="@style/AppLinearLayoutStyle">
+
+                <TextView
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/st_cuenta"
+                    android:textColor="@color/C1" />
+
+                <TextView
+                    android:id="@+id/tvRol"
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/C6" />
+
+            </LinearLayout>
+
+            <!-- Segundo LinearLayout -->
+            <LinearLayout
+                style="@style/AppLinearLayoutStyle">
+
+                <TextView
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/st_email"
+                    android:textColor="@color/C1" />
+
+                <TextView
+                    android:id="@+id/tvEmailUser"
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/C6" />
+
+            </LinearLayout>
+
+            <!-- Tercer LinearLayout -->
+            <LinearLayout
+                style="@style/AppLinearLayoutStyle">
+
+                <TextView
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/st_nombre"
+                    android:textColor="@color/C1" />
+
+                <TextView
+                    android:id="@+id/tvNameUser"
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/C6" />
+
+            </LinearLayout>
+
+            <!-- Cuarto LinearLayout -->
+            <LinearLayout
+                style="@style/AppLinearLayoutStyle">
+
+                <TextView
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="@string/st_apellido"
+                    android:textColor="@color/C1" />
+
+                <TextView
+                    android:id="@+id/tvApellidoUser"
+                    style="@style/AppTextViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/C6" />
+
+            </LinearLayout>
+
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="visible" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEditProfileUser"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="@color/C1"
+                android:text="@string/st_editar_perfil"
+                app:cornerRadius="10dp"
+                app:elevation="10dp" />
+
+            <TextView
+                android:id="@+id/idAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/st_cuenta2"
+                android:textColor="@color/C1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

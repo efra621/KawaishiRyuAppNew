@@ -21,5 +21,39 @@
     <string name="st_password_rep">Repita contraseña</string>
     <string name="st_politic1">He leído las políticas de privacidad.</string>
 
+    <!-- Item location -->
+    <string name="st_nombre_del_dojo">Nombre del dojo</string>
+    <string name="st_sensei_a_cargo">Sensei a cargo</string>
+    <string name="st_editar">Editar</string>
+    <string name="st_eliminar">Eliminar</string>
+
+    <!-- RegisterLocationFragment -->
+    <string name="st_horario">Horario</string>
+    <string name="st_lista_de_horarios">Lista de horarios</string>
+    <string name="st_disciplina">Disciplina</string>
+    <string name="st_lunes">Lunes</string>
+    <string name="st_martes">Martes</string>
+    <string name="st_miercoles">Miercoles</string>
+    <string name="st_jueves">Jueves</string>
+    <string name="st_viernes">Viernes</string>
+    <string name="st_sabado">Sabado</string>
+    <string name="st_hora_de_entrada">Hora de entrada</string>
+    <string name="_00_00">00:00</string>
+    <string name="st_hora_de_salida">Hora de salida</string>
+    <string name="st_agregar_horario">Agregar Horario</string>
+    <string name="st_subir_horarios">Subir horarios</string>
+
+    <!-- ProfileEditUser -->
+    <string name="st_cuenta">Cuenta:</string>
+    <string name="st_email">Email@:</string>
+    <string name="st_nombre">Nombre:</string>
+    <string name="st_apellido">Apellido:</string>
+    <string name="st_editar_perfil">Editar Perfil</string>
+    <string name="st_cuenta2">Cuenta:</string>
+
+    <!-- Item_menu_tec -->
+    <string name="st_jiu_jitsu">Jiu jitsu</string>
+    <string name="st_traducir">Traducir</string>
+
 
 </resources>

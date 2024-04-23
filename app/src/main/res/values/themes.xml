@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.KawaishiRyuAppNew" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
@@ -11,7 +11,7 @@
     <style name="CommonLinearLayoutStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/C4</item>
+        <item name="android:background">@color/C2</item>
         <item name="android:gravity">center</item>
         <item name="android:orientation">vertical</item>
     </style>
@@ -37,12 +37,12 @@
         <item name="hintTextColor">@color/C1</item>
     </style>
 
-    <style name="TextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="CommonTextInputLayout2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
         <item name="android:textColorHint">@color/C1</item>
         <item name="boxBackgroundColor">@color/C7</item>
         <item name="endIconMode">clear_text</item>
@@ -63,10 +63,10 @@
     <!-- CardView -->
     <style name="CommonCardViewStyle">
         <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:backgroundTint">@color/C7</item>
-        <item name="android:layout_margin">15dp</item>
         <item name="android:elevation">14dp</item>
-        <item name="cardCornerRadius">15dp</item>
+        <item name="cardCornerRadius">8dp</item>
     </style>
 
     <style name="MaterialAutoCompleteTextViewStyle" parent="Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
@@ -82,7 +82,8 @@
         <item name="android:hint">Seleccione una opción</item>
         <item name="android:inputType">none</item>
         <item name="android:textColor">@color/C6</item>
-        <item name="android:background">@null</item> <!-- Elimina el fondo para que se vea como un cuadro de texto normal -->
+        <item name="android:background">@null
+        </item> <!-- Elimina el fondo para que se vea como un cuadro de texto normal -->
         <item name="android:focusable">false</item> <!-- Hace que no sea editable directamente -->
     </style>
 
@@ -108,5 +109,29 @@
     </style>
 
 
+    <style name="CustomChip" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="chipBackgroundColor">@color/C1</item>
+        <item name="android:textColor">@color/C6</item>
+        <item name="endIconCheckable">false</item>
+        <item name="closeIconVisible">false</item>
+    </style>
+
+
+    <!-- ProfileEditFragment -->
+    <!-- Estilos para TextView -->
+    <style name="AppTextViewStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Estilos para LinearLayout -->
+    <style name="AppLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 
 </resources>

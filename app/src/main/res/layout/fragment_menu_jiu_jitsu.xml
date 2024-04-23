@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CommonLinearLayoutStyle"
+    tools:context=".ui.fragment.tec_menu.MenuJiuJitsuFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        style="@style/CommonCardViewStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="@integer/material_motion_duration_medium_1"
+                android:text="@string/st_jiu_jitsu"
+                android:textAlignment="center"
+                android:textColor="@color/C6"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switchJiuJitsu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:shadowColor="@color/C1"
+                android:text="@string/st_traducir"
+                android:textColor="@color/C1"
+                android:textSize="18sp"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMenuTec"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_menu_tec" />
+
+
+
+</LinearLayout>
