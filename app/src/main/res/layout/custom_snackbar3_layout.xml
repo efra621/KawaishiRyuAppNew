@@ -21,7 +21,7 @@
             android:id="@+id/icon"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            app:srcCompat="@drawable/ic_baseline_report_problem"
+            app:srcCompat="@drawable/ic_report_problem"
             app:tint="#F58634" />
 
         <View

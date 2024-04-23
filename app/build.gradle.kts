@@ -54,7 +54,7 @@ android {
 
     buildFeatures {
         viewBinding = true
-        buildConfig = true
+        //buildConfig = true
     }
 }
 
@@ -78,8 +78,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
 
     // Google Play Services Auth
-    implementation("com.google.android.gms:play-services-auth:32.8.1") // Especificando la versión
-
+    //implementation("com.google.android.gms:play-services-auth:32.8.1") // Especificando la versión
 
     // Kotlin
     val n1 = "2.7.7"

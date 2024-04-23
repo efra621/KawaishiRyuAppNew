@@ -20,6 +20,8 @@
     <string name="email">Email@</string>
     <string name="st_password_rep">Repita contraseña</string>
     <string name="st_politic1">He leído las políticas de privacidad.</string>
+    <string name="st_soy_mayor_de_13_a_os">Soy mayor de 13 años</string>
+    <string name="st_registrate">Registrate</string>
 
     <!-- Item location -->
     <string name="st_nombre_del_dojo">Nombre del dojo</string>
@@ -54,6 +56,7 @@
     <!-- Item_menu_tec -->
     <string name="st_jiu_jitsu">Jiu jitsu</string>
     <string name="st_traducir">Traducir</string>
+    <string name="st_hecho">Hecho</string>
 
 
 </resources>
