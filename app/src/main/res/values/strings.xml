@@ -58,5 +58,18 @@
     <string name="st_traducir">Traducir</string>
     <string name="st_hecho">Hecho</string>
 
+    <!-- menuNavDrawer -->
+    <string name="st_inicio">Inicio</string>
+    <string name="st_menu_principal">Menu principal</string>
+    <string name="st_tecnicas_jiu_jitsu">Tecnicas Jiu Jitsu</string>
+    <string name="st_tecnicas_judo">Tecnicas Judo</string>
+    <string name="st_ubicaciones_de_dojos">Ubicaciones de dojos</string>
+    <string name="st_perfil_de_usuario">Perfil de usuario</string>
+    <string name="st_perfil">Perfil</string>
+    <string name="st_cerrar_sesion">Cerrar sesion</string>
+    <string name="st_header"><![CDATA[Kawaishi Ryu Jiu jitsu & Judo desde 1974 en Argentina]]></string>
+    <string name="open_nav">open\n</string>
+    <string name="close_nav">close\n</string>
+
 
 </resources>

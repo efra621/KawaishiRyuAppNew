@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/st_inicio" />
+
+    <item android:title="@string/st_menu_principal">
+        <menu>
+
+            <item
+                android:id="@+id/menuJiuJitsuFragment"
+                android:icon="@drawable/ic_jiujitsu"
+                android:title="@string/st_tecnicas_jiu_jitsu" />
+
+            <item
+                android:id="@+id/menuJudoFragment"
+                android:icon="@drawable/ic_judo"
+                android:title="@string/st_tecnicas_judo" />
+
+            <item
+                android:id="@+id/locationFragment"
+                android:icon="@drawable/ic_dojo"
+                android:title="@string/st_ubicaciones_de_dojos" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/st_perfil_de_usuario">
+        <menu>
+            <item
+                android:id="@+id/profileUserFragment"
+                android:icon="@drawable/ic_account_circle"
+                android:title="@string/st_perfil" />
+            <item
+                android:id="@+id/dialogSignOutUser"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/st_cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

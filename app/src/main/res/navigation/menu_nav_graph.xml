@@ -10,4 +10,45 @@
         android:name="app.gratum.kawaishiryuappnew.ui.fragment.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/locationFragment2"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.location.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" >
+        <action
+            android:id="@+id/action_locationFragment2_to_registerLocationFragment"
+            app:destination="@id/registerLocationFragment" />
+        <action
+            android:id="@+id/action_locationFragment2_to_locationDetailFragment"
+            app:destination="@id/locationDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerLocationFragment"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.location.RegisterLocationFragment"
+        android:label="fragment_register_location"
+        tools:layout="@layout/fragment_register_location" />
+    <fragment
+        android:id="@+id/locationDetailFragment"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.location.LocationDetailFragment"
+        android:label="fragment_location_detail"
+        tools:layout="@layout/fragment_location_detail" >
+        <action
+            android:id="@+id/action_locationDetailFragment_to_registerTimeFragment"
+            app:destination="@id/registerTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerTimeFragment"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.location.RegisterTimeFragment"
+        android:label="fragment_register_time"
+        tools:layout="@layout/fragment_register_time" />
+    <fragment
+        android:id="@+id/menuJiuJitsuFragment2"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.tec_menu.MenuJiuJitsuFragment"
+        android:label="fragment_menu_jiu_jitsu"
+        tools:layout="@layout/fragment_menu_jiu_jitsu" />
+    <fragment
+        android:id="@+id/menuJudoFragment2"
+        android:name="app.gratum.kawaishiryuappnew.ui.fragment.tec_menu.MenuJudoFragment"
+        android:label="fragment_menu_judo"
+        tools:layout="@layout/fragment_menu_judo" />
 </navigation>

@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cv1"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         style="@style/CommonCardViewStyle">
 
